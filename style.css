@@ -9,3 +9,28 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/*-----WRONG OR RIGHT ANSWER POP UP------*/
+#correct {
+  display: none;
+  width: 100%;
+  height: 50px;
+
+  background-color: green;
+  align-items: center;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+#wrong {
+  display: none;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+
+  color: white;
+  background-color: rgb(128, 0, 0);
+  align-items: center;
+  justify-content: center;
+}
